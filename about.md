@@ -51,6 +51,16 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 * [MS Azure] - Utilisé pour déployé le code en serverless et hébergement du front
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
+### Status Codes
+
+| Status Code | Description |
+| :--- | :--- |
+| 200 | `OK` |
+| 201 | `CREATED` |
+| 400 | `BAD REQUEST` |
+| 404 | `NOT FOUND` |
+| 500 | `INTERNAL SERVER ERROR` |
+
 ## Liens annexes de données
 * [HyperLeda](http://leda.univ-lyon1.fr/)
 * [CDS Portal](http://cdsportal.u-strasbg.fr/)
