@@ -66,6 +66,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 Example: http://example.gov/api/v1/objects.json
 
 Response body:
+```
 {
     "results": [
         {
@@ -106,13 +107,14 @@ Response body:
         },
     ]
 }
-
+```
 
 ### GET /objects/{id}
 
 Example: http://example.gov/api/v1/objects/1.json
 
 Response body:
+```
 {
     "result": {
         "id": "1",
@@ -133,18 +135,20 @@ Response body:
         "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg"
     }
 }
-
+```
 
 ### GET /objects/{id}/{parameter}
 
 Example: http://example.gov/api/v1/objects/1/name.json
 
 Response body:
+```
 {
     "result": {
         "name": "Crab Nebula"
     }
 }
+```
 
 
 ### Status Codes
