@@ -25,7 +25,8 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 
 ### Participants
 
-* Cyril Bécret (DE)
+* Cyril Bécret
+* Quentin Monmousseau
 
 ### Installation
 
