@@ -48,7 +48,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 ### Technologies utilisées
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
-* [PostgreSQL] - Base de données relationnelle
+* [SQLite] - Base de données relationnelle (très légère)
 * [MS Azure] - Utilisé pour déployé le code en serverless et hébergement du front
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
