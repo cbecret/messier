@@ -15,6 +15,26 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 - Entièrement en Python
 - Hébergé sur un service en ligne
 
+### Données
+- Messier number
+- Name
+- NGC number
+- Constellation
+- Object type
+- Dimension
+- Earth distance
+- Magnitude
+- Right ascension
+- Discovery date
+- Discoverer
+- Image link
+
+### Fonctionnalités minimales
+- Fonction de recherche libre
+- Fonction de tri pour chaque colonne
+- Fonction de récupération des données au format indiqué par l'utilisateur (json, csv...)
+- Fonction permettant de faire des graphiques à partir de deux dimensions choisies par l'utilisateur
+
 ### Technologies utilisées
 
 * [Python] - Langage utilisé pour la création de l'API
