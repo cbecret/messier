@@ -15,6 +15,11 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 - Entièrement en Python
 - Hébergé sur un service en ligne
 
+### Participants
+* Cyril Bécret
+* Quentin Monmousseau
+* Mehdi Bey
+
 ### Données
 - Messier number
 - Name
@@ -29,29 +34,26 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 - Discoverer
 - Image link
 
+### L'intérêt scientifique de ces données et de votre catalogue
+- Facilité l'exploration des différentes galaxies listées par Messier
+
 ### Fonctionnalités minimales
+- Versioning de l'API
 - Fonction de recherche libre
+- Accès au tableau complet des données
 - Fonction de tri pour chaque colonne
 - Fonction de récupération des données au format indiqué par l'utilisateur (json, csv...)
-- Fonction permettant de faire des graphiques à partir de deux dimensions choisies par l'utilisateur
+- Fonction permettant de générer des graphiques à partir de deux dimensions choisies par l'utilisateur
 
 ### Technologies utilisées
-
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
 * [MS Azure] - Utilisé pour déployé le code en serverless et hébergement du front
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
 ## Liens annexes de données
-
 * [HyperLeda](http://leda.univ-lyon1.fr/)
 * [CDS Portal](http://cdsportal.u-strasbg.fr/)
-
-### Participants
-
-* Cyril Bécret
-* Quentin Monmousseau
-* Mehdi Bey
 
 ### Installation
 
