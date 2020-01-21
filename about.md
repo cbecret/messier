@@ -31,6 +31,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 
 * Cyril Bécret
 * Quentin Monmousseau
+* Mehdi Bey
 
 ### Installation
 
