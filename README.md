@@ -53,7 +53,7 @@ $ python manage.py runserver
 - Image link
 
 ### L'intérêt scientifique de ces données et de votre catalogue
-- Facilité l'exploration des différentes galaxies listées par Messier
+- Faciliter l'exploration des différentes galaxies listées par Messier
 
 ### Fonctionnalités minimales
 - Versioning de l'API
@@ -67,7 +67,6 @@ $ python manage.py runserver
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
 * [PostgreSQL] - Base de données relationnelle
-* [MS Azure] - Utilisé pour déployé le code en serverless et hébergement du front
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
 ## Request & Response Examples
@@ -192,8 +191,7 @@ Response body:
  - Compléter le fichier about.md
  - Documenter les routes utilisées
  - Initialiser Django Rest Framework
- - Mettre en place l'infrastructure Azure
- - Développer les Az function requises
+ - Développer le serveur pour l'ensemble des routes définies
  - Mettre en place un FrontEnd ludique et interactif
 
 License
