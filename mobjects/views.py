@@ -1,47 +1,51 @@
-from rest_framework import status
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
 from mobjects.models import Mobject
 from mobjects.serializers import MobjectSerializer
+from django.http import Http404
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
 
-@api_view(['GET', 'POST'])
-def mobject_list(request, format=None):
+
+class MobjectList(APIView):
     """
-    List all code mobjects, or create a new mobject.
+    List all mobjects, or create a new mobject.
     """
-    if request.method == 'GET':
-        mobjects = mobject.objects.all()
+    def get(self, request, format=None):
+        mobjects = Mobject.objects.all()
         serializer = MobjectSerializer(mobjects, many=True)
         return Response(serializer.data)
 
-    elif request.method == 'POST':
+    def post(self, request, format=None):
         serializer = MobjectSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(['GET', 'PUT', 'DELETE'])
-def mobject_detail(request, pk, format=None):
+class MobjectDetail(APIView):
     """
-    Retrieve, update or delete a code mobject.
+    Retrieve, update or delete a mobject instance.
     """
-    try:
-        mobject = mobject.objects.get(pk=pk)
-    except Mobject.DoesNotExist:
-        return Response(status=status.HTTP_404_NOT_FOUND)
+    def get_object(self, pk):
+        try:
+            return Mobject.objects.get(pk=pk)
+        except Mobject.DoesNotExist:
+            raise Http404
 
-    if request.method == 'GET':
+    def get(self, request, pk, format=None):
+        mobject = self.get_object(pk)
         serializer = MobjectSerializer(mobject)
         return Response(serializer.data)
 
-    elif request.method == 'PUT':
+    def put(self, request, pk, format=None):
+        mobject = self.get_object(pk)
         serializer = MobjectSerializer(mobject, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    elif request.method == 'DELETE':
+    def delete(self, request, pk, format=None):
+        mobject = self.get_object(pk)
         mobject.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
