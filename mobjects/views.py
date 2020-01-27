@@ -2,7 +2,7 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from mobjects.models import Mobject
-from mobjects.serializers import Mobjectserializer
+from mobjects.serializers import MobjectSerializer
 
 @csrf_exempt
 def mobject_list(request):
