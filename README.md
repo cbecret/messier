@@ -6,6 +6,24 @@ Mise en place d'un catalogue de Messier dans le cadre du cours de Python du Mast
 
 Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde/astronomie-accueil-catalogue-Messier.html)
 
+## Instructions d'installation :
+
+* Cette API utilise les dépendances suivantes :
+
+| Dépendance | Versions |
+| ------ | ------ |
+| Python | (3.5, 3.6, 3.7, 3.8) |
+| Django | (1.11, 2.0, 2.1, 2.2, 3.0) |
+
+* Procédure d'installation :
+
+```sh
+$ git clone https://github.com/cbecret/messier.git
+$ cd messier
+$ python manage.py migrate
+$ python manage.py runserver
+```
+
 ## Contraintes d'accessibilité :
 
 - Performance
