@@ -167,6 +167,18 @@ Response body:
 }
 ```
 
+## Format des données renvoyées par l'API
+
+* Il est possible de choisir le type de retour via le **Accept header** :
+
+http http://127.0.0.1:8000/objects/ Accept:application/json  # Request JSON
+http http://127.0.0.1:8000/objects/ Accept:text/html         # Request HTML
+
+* ou en utilisant un suffix spécifique :
+
+http http://127.0.0.1:8000/objects.json  # JSON suffix
+http http://127.0.0.1:8000/objects.api   # Browsable API suffix
+
 
 ### Status Codes
 
