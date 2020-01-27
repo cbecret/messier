@@ -40,7 +40,7 @@ $ python manage.py runserver
 
 ### Données
 - Messier number
-- Name
+- Usual Name
 - NGC number
 - Constellation
 - Object type
@@ -66,7 +66,7 @@ $ python manage.py runserver
 ### Technologies utilisées
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
-* [PostgreSQL] - Base de données relationnelle
+* [Sqlite3] - Base de données relationnelle
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
 ## Request & Response Examples
@@ -89,15 +89,13 @@ Response body:
         {
             "id": "1",
             "messier_number": "M1",
-            "name": "Crab Nebula",
+            "usual_name": "Crab Nebula",
             "ngc": "NGC 1952",
             "constellation": "Taurus",
-            "type": "Supernova remnant",
+            "messier_type": "Supernova remnant",
             "dimension": "6'×4'",
-            "distance": {
-                "value": "6.3",
-                "unit": "kly"
-            },
+            "distance_value": 6.3,
+            "distance_unit": "kly",
             "magnitude": "8.4",
             "ascension": "05h 34m 31.94s",
             "discovery_date": "03/05/1731",
@@ -107,15 +105,13 @@ Response body:
         {
             "id": "2",
             "messier_number": "M2",
-            "name": None,
+            "usual_name": None,
             "ngc": "NGC 7089",
             "constellation": "Aquarius",
-            "type": "Globular cluster",
+            "messier_type": "Globular cluster",
             "dimension": "16′.0",
-            "distance": {
-                "value": "33",
-                "unit": "kly"
-            },
+            "distance_value": 33,
+            "distance_unit": "kly",
             "magnitude": "6.3",
             "ascension": "21h 33m 27.02s",
             "discovery_date": "03/05/1731",
@@ -136,15 +132,13 @@ Response body:
     "result": {
         "id": "1",
         "messier_number": "M1",
-        "name": "Crab Nebula",
+        "usual_name": "Crab Nebula",
         "ngc": "NGC 1952",
         "constellation": "Taurus",
-        "type": "Supernova remnant",
+        "messier_type": "Supernova remnant",
         "dimension": "6'×4'",
-        "distance": {
-            "value": "6.3",
-            "unit": "kly"
-        },
+        "distance_value": 6.3,
+        "distance_unit": "kly",
         "magnitude": "8.4",
         "ascension": "05h 34m 31.94s",
         "discovery_date": "03/05/1731",
@@ -156,13 +150,13 @@ Response body:
 
 ### GET /objects/{id}/{parameter}
 
-Example: http://example.gov/api/v1/objects/1/name.json
+Example: http://example.gov/api/v1/objects/1/usual_name.json
 
 Response body:
 ```
 {
     "result": {
-        "name": "Crab Nebula"
+        "usual_name": "Crab Nebula"
     }
 }
 ```

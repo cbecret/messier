@@ -1,32 +1,31 @@
 from mobjects.models import Mobject
 from mobjects.serializers import MobjectSerializer
-from rest_framework import mixins
-from rest_framework import generics
+from rest_framework import generics, permissions
+from django.contrib.auth.models import User
+from mobjects.serializers import UserSerializer
+from mobjects.permissions import IsOwnerOrReadOnly
 
-class MobjectList(mixins.ListModelMixin,
-                  mixins.CreateModelMixin,
-                  generics.GenericAPIView):
+
+class MobjectList(generics.ListCreateAPIView):
     queryset = Mobject.objects.all()
     serializer_class = MobjectSerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
-    def get(self, request, *args, **kwargs):
-        return self.list(request, *args, **kwargs)
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
 
-    def post(self, request, *args, **kwargs):
-        return self.create(request, *args, **kwargs)
 
-class MobjectDetail(mixins.RetrieveModelMixin,
-                    mixins.UpdateModelMixin,
-                    mixins.DestroyModelMixin,
-                    generics.GenericAPIView):
+class MobjectDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Mobject.objects.all()
     serializer_class = MobjectSerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
 
-    def get(self, request, *args, **kwargs):
-        return self.retrieve(request, *args, **kwargs)
 
-    def put(self, request, *args, **kwargs):
-        return self.update(request, *args, **kwargs)
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
-    def delete(self, request, *args, **kwargs):
-        return self.destroy(request, *args, **kwargs)
+
+class UserDetail(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
