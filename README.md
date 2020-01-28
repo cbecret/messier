@@ -76,7 +76,7 @@ $ python manage.py runserver
   - [GET /api/v1/objects](#get-objects)
   - [GET /api/v1/objects/{id}](#get-objectsid)
   - [GET /api/v1/objects/{id}/{parameter}](#get-objectsidparameter)
-  - [POST /api/v1](#post-objects)
+  - [POST /api/v1/objects](#post-objects)
 
 ### GET /objects
 
