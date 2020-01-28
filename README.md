@@ -6,6 +6,24 @@ Mise en place d'un catalogue de Messier dans le cadre du cours de Python du Mast
 
 Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde/astronomie-accueil-catalogue-Messier.html)
 
+## Instructions d'installation :
+
+* Cette API utilise les dépendances suivantes :
+
+| Dépendance | Versions |
+| ------ | ------ |
+| Python | (3.5, 3.6, 3.7, 3.8) |
+| Django | (1.11, 2.0, 2.1, 2.2, 3.0) |
+
+* Procédure d'installation :
+
+```sh
+$ git clone https://github.com/cbecret/messier.git
+$ cd messier
+$ python manage.py migrate
+$ python manage.py runserver
+```
+
 ## Contraintes d'accessibilité :
 
 - Performance
@@ -22,7 +40,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 
 ### Données
 - Messier number
-- Name
+- Usual Name
 - NGC number
 - Constellation
 - Object type
@@ -35,7 +53,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 - Image link
 
 ### L'intérêt scientifique de ces données et de votre catalogue
-- Facilité l'exploration des différentes galaxies listées par Messier
+- Faciliter l'exploration des différentes galaxies listées par Messier
 
 ### Fonctionnalités minimales
 - Versioning de l'API
@@ -48,8 +66,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 ### Technologies utilisées
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
-* [PostgreSQL] - Base de données relationnelle
-* [MS Azure] - Utilisé pour déployé le code en serverless et hébergement du front
+* [Sqlite3] - Base de données relationnelle
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
 ## Request & Response Examples
@@ -67,46 +84,42 @@ Example: http://example.gov/api/v1/objects.json
 
 Response body:
 ```
-{
-    "results": [
-        {
-            "id": "1",
-            "messier_number": "M1",
-            "name": "Crab Nebula",
-            "ngc": "NGC 1952",
-            "constellation": "Taurus",
-            "type": "Supernova remnant",
-            "dimension": "6'×4'",
-            "distance": {
-                "value": "6.3",
-                "unit": "kly"
-            },
-            "magnitude": "8.4",
-            "ascension": "05h 34m 31.94s",
-            "discovery_date": "03/05/1731",
-            "discoverer": "John Bevis",
-            "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg"
-        },
-        {
-            "id": "2",
-            "messier_number": "M2",
-            "name": None,
-            "ngc": "NGC 7089",
-            "constellation": "Aquarius",
-            "type": "Globular cluster",
-            "dimension": "16′.0",
-            "distance": {
-                "value": "33",
-                "unit": "kly"
-            },
-            "magnitude": "6.3",
-            "ascension": "21h 33m 27.02s",
-            "discovery_date": "03/05/1731",
-            "discoverer": "John Bevis",
-            "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Messier_2_Hubble_WikiSky.jpg"
-        },
-    ]
-}
+[
+    {
+        "id": "1",
+        "messier_number": "M1",
+        "usual_name": "Crab Nebula",
+        "ngc": "NGC 1952",
+        "constellation": "Taurus",
+        "messier_type": "Supernova remnant",
+        "dimension": "6'×4'",
+        "distance_value": 6.3,
+        "distance_unit": "kly",
+        "magnitude": "8.4",
+        "ascension": "05h 34m 31.94s",
+        "discovery_date": "03/05/1731",
+        "discoverer": "John Bevis",
+        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
+        "owner": 1
+    },
+    {
+        "id": "2",
+        "messier_number": "M2",
+        "usual_name": None,
+        "ngc": "NGC 7089",
+        "constellation": "Aquarius",
+        "messier_type": "Globular cluster",
+        "dimension": "16′.0",
+        "distance_value": 33,
+        "distance_unit": "kly",
+        "magnitude": "6.3",
+        "ascension": "21h 33m 27.02s",
+        "discovery_date": "03/05/1731",
+        "discoverer": "John Bevis",
+        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Messier_2_Hubble_WikiSky.jpg",
+        "owner": 1
+    },
+]
 ```
 
 ### GET /objects/{id}
@@ -116,39 +129,47 @@ Example: http://example.gov/api/v1/objects/1.json
 Response body:
 ```
 {
-    "result": {
-        "id": "1",
-        "messier_number": "M1",
-        "name": "Crab Nebula",
-        "ngc": "NGC 1952",
-        "constellation": "Taurus",
-        "type": "Supernova remnant",
-        "dimension": "6'×4'",
-        "distance": {
-            "value": "6.3",
-            "unit": "kly"
-        },
-        "magnitude": "8.4",
-        "ascension": "05h 34m 31.94s",
-        "discovery_date": "03/05/1731",
-        "discoverer": "John Bevis",
-        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg"
-    }
+    "id": "1",
+    "messier_number": "M1",
+    "usual_name": "Crab Nebula",
+    "ngc": "NGC 1952",
+    "constellation": "Taurus",
+    "messier_type": "Supernova remnant",
+    "dimension": "6'×4'",
+    "distance_value": 6.3,
+    "distance_unit": "kly",
+    "magnitude": "8.4",
+    "ascension": "05h 34m 31.94s",
+    "discovery_date": "03/05/1731",
+    "discoverer": "John Bevis",
+    "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
+    "owner": 1
 }
 ```
 
 ### GET /objects/{id}/{parameter}
 
-Example: http://example.gov/api/v1/objects/1/name.json
+Example: http://example.gov/api/v1/objects/1/usual_name.json
 
 Response body:
 ```
 {
-    "result": {
-        "name": "Crab Nebula"
-    }
+    "usual_name": "Crab Nebula"
+
 }
 ```
+
+## Format des données renvoyées par l'API
+
+* Il est possible de choisir le type de retour via le **Accept header** :
+
+http http://127.0.0.1:8000/api/v1/objects/ Accept:application/json  # Request JSON
+http http://127.0.0.1:8000/api/v1/objects/ Accept:text/html         # Request HTML
+
+* ou en utilisant un suffix spécifique :
+
+http http://127.0.0.1:8000/api/v1/objects.json  # JSON suffix
+http http://127.0.0.1:8000/api/v1/objects.api   # Browsable API suffix
 
 
 ### Status Codes
@@ -174,8 +195,7 @@ Response body:
  - Compléter le fichier about.md
  - Documenter les routes utilisées
  - Initialiser Django Rest Framework
- - Mettre en place l'infrastructure Azure
- - Développer les Az function requises
+ - Développer le serveur pour l'ensemble des routes définies
  - Mettre en place un FrontEnd ludique et interactif
 
 License

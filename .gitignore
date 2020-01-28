@@ -2,6 +2,12 @@
 # Created by https://www.gitignore.io/api/osx,react,django,python,windows,jetbrains
 # Edit at https://www.gitignore.io/?templates=osx,react,django,python,windows,jetbrains
 
+### VS Code ###
+.vscode/
+
+### Venv ###
+env/
+
 ### Django ###
 *.log
 *.pot
