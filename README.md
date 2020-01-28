@@ -84,52 +84,8 @@ Example: http://example.gov/api/v1/objects.json
 
 Response body:
 ```
-{
-    "results": [
-        {
-            "id": "1",
-            "messier_number": "M1",
-            "usual_name": "Crab Nebula",
-            "ngc": "NGC 1952",
-            "constellation": "Taurus",
-            "messier_type": "Supernova remnant",
-            "dimension": "6'×4'",
-            "distance_value": 6.3,
-            "distance_unit": "kly",
-            "magnitude": "8.4",
-            "ascension": "05h 34m 31.94s",
-            "discovery_date": "03/05/1731",
-            "discoverer": "John Bevis",
-            "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg"
-        },
-        {
-            "id": "2",
-            "messier_number": "M2",
-            "usual_name": None,
-            "ngc": "NGC 7089",
-            "constellation": "Aquarius",
-            "messier_type": "Globular cluster",
-            "dimension": "16′.0",
-            "distance_value": 33,
-            "distance_unit": "kly",
-            "magnitude": "6.3",
-            "ascension": "21h 33m 27.02s",
-            "discovery_date": "03/05/1731",
-            "discoverer": "John Bevis",
-            "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Messier_2_Hubble_WikiSky.jpg"
-        },
-    ]
-}
-```
-
-### GET /objects/{id}
-
-Example: http://example.gov/api/v1/objects/1.json
-
-Response body:
-```
-{
-    "result": {
+[
+    {
         "id": "1",
         "messier_number": "M1",
         "usual_name": "Crab Nebula",
@@ -143,8 +99,51 @@ Response body:
         "ascension": "05h 34m 31.94s",
         "discovery_date": "03/05/1731",
         "discoverer": "John Bevis",
-        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg"
-    }
+        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
+        "owner": 1
+    },
+    {
+        "id": "2",
+        "messier_number": "M2",
+        "usual_name": None,
+        "ngc": "NGC 7089",
+        "constellation": "Aquarius",
+        "messier_type": "Globular cluster",
+        "dimension": "16′.0",
+        "distance_value": 33,
+        "distance_unit": "kly",
+        "magnitude": "6.3",
+        "ascension": "21h 33m 27.02s",
+        "discovery_date": "03/05/1731",
+        "discoverer": "John Bevis",
+        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Messier_2_Hubble_WikiSky.jpg",
+        "owner": 1
+    },
+]
+```
+
+### GET /objects/{id}
+
+Example: http://example.gov/api/v1/objects/1.json
+
+Response body:
+```
+{
+    "id": "1",
+    "messier_number": "M1",
+    "usual_name": "Crab Nebula",
+    "ngc": "NGC 1952",
+    "constellation": "Taurus",
+    "messier_type": "Supernova remnant",
+    "dimension": "6'×4'",
+    "distance_value": 6.3,
+    "distance_unit": "kly",
+    "magnitude": "8.4",
+    "ascension": "05h 34m 31.94s",
+    "discovery_date": "03/05/1731",
+    "discoverer": "John Bevis",
+    "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
+    "owner": 1
 }
 ```
 
@@ -155,9 +154,8 @@ Example: http://example.gov/api/v1/objects/1/usual_name.json
 Response body:
 ```
 {
-    "result": {
-        "usual_name": "Crab Nebula"
-    }
+    "usual_name": "Crab Nebula"
+
 }
 ```
 

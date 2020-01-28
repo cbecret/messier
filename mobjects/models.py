@@ -27,14 +27,7 @@ class Mobject(models.Model):
     highlighted = models.TextField()
 
     def save(self, *args, **kwargs):
-        """
-        Use the `pygments` library to create a highlighted HTML
-        representation of the mobject.
-        """
-        lexer = get_lexer_by_name(self.messier_number)
-        formatter = HtmlFormatter(style=self.style, linenos=linenos,
-                                full=True, **options)
-        self.highlighted = highlight(self.usual_name, lexer, formatter)
+        formatter = HtmlFormatter(full=True)
         super(Mobject, self).save(*args, **kwargs)
 
     class Meta:
