@@ -80,7 +80,7 @@ $ python manage.py runserver
 
 ### GET /objects
 
-Example: http://example.gov/api/v1/objects.json
+Example: https://cbecret.pythonanywhere.com/api/v1/objects.json
 
 Response body:
 ```
@@ -124,7 +124,7 @@ Response body:
 
 ### GET /objects/{id}
 
-Example: http://example.gov/api/v1/objects/1.json
+Example: https://cbecret.pythonanywhere.com/api/v1/objects/1.json
 
 Response body:
 ```
@@ -148,8 +148,7 @@ Response body:
 ```
 
 ### GET /objects/{id}/{parameter}
-
-Example: http://example.gov/api/v1/objects/1/usual_name.json
+Example: https://cbecret.pythonanywhere.com/api/v1/objects/1/usual_name.json
 
 Response body:
 ```
