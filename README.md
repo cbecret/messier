@@ -163,13 +163,13 @@ Response body:
 
 * Il est possible de choisir le type de retour via le **Accept header** :
 
-http http://127.0.0.1:8000/objects/ Accept:application/json  # Request JSON
-http http://127.0.0.1:8000/objects/ Accept:text/html         # Request HTML
+http http://127.0.0.1:8000/api/v1/objects/ Accept:application/json  # Request JSON
+http http://127.0.0.1:8000/api/v1/objects/ Accept:text/html         # Request HTML
 
 * ou en utilisant un suffix spécifique :
 
-http http://127.0.0.1:8000/objects.json  # JSON suffix
-http http://127.0.0.1:8000/objects.api   # Browsable API suffix
+http http://127.0.0.1:8000/api/v1/objects.json  # JSON suffix
+http http://127.0.0.1:8000/api/v1/objects.api   # Browsable API suffix
 
 
 ### Status Codes
