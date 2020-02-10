@@ -21,6 +21,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 ```sh
 $ git clone https://github.com/cbecret/messier.git
 $ cd messier
+$ pip install -r requirements.txt
 $ python manage.py migrate
 $ python manage.py runserver
 ```
