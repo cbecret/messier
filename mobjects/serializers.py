@@ -1,8 +1,11 @@
-from rest_framework import serializers
-from mobjects.models import Mobject
 from django.contrib.auth.models import User
+from rest_framework import serializers
+
+from mobjects.models import Mobject
+
 
 class MobjectSerializer(serializers.ModelSerializer):
+    
     class Meta:
         model = Mobject
         fields = ['id', 'messier_number', 'usual_name', 'ngc', 'constellation',
