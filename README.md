@@ -14,6 +14,7 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 | ------ | ------ |
 | Python | (3.5, 3.6, 3.7, 3.8) |
 | Django | (1.11, 2.0, 2.1, 2.2, 3.0) |
+| djangorestframework | (3.11) |
 
 * Procédure d'installation :
 
