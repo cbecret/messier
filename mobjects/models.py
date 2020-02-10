@@ -2,6 +2,7 @@ from django.db import models
 from pygments.formatters.html import HtmlFormatter
 
 
+# Définition précise des champs composant les objets de Messier
 class Mobject(models.Model):
     messier_number = models.CharField(max_length=100)
     usual_name = models.CharField(max_length=100, blank=True, null=True, default='')

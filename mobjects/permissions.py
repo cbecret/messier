@@ -1,6 +1,7 @@
 from rest_framework import permissions
 
 
+# Gestion des permissions utilisateurs (uniquement l'admin peut ajouter et éditer les objets)
 class IsOwnerOrReadOnly(permissions.BasePermission):
     """
     Custom permission to only allow owners of an object to edit it.
