@@ -1,14 +1,8 @@
 from django.db import models
-from pygments.lexers import get_all_lexers, get_lexer_by_name
-from pygments.styles import get_all_styles
 from pygments.formatters.html import HtmlFormatter
-from pygments import highlight
-
-LEXERS = [item for item in get_all_lexers() if item[1]]
-LANGUAGE_CHOICES = sorted([(item[1][0], item[0]) for item in LEXERS])
-STYLE_CHOICES = sorted([(item, item) for item in get_all_styles()])
 
 
+# Définition précise des champs composant les objets de Messier
 class Mobject(models.Model):
     messier_number = models.CharField(max_length=100)
     usual_name = models.CharField(max_length=100, blank=True, null=True, default='')
@@ -24,11 +18,10 @@ class Mobject(models.Model):
     discoverer = models.CharField(max_length=100)
     image_link = models.TextField()
     owner = models.ForeignKey('auth.User', related_name='mobjects', on_delete=models.CASCADE)
-    highlighted = models.TextField()
+
+    class Meta:
+        ordering = ('messier_number', )
 
     def save(self, *args, **kwargs):
         formatter = HtmlFormatter(full=True)
         super(Mobject, self).save(*args, **kwargs)
-
-    class Meta:
-        ordering = ['messier_number']

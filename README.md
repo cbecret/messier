@@ -57,26 +57,39 @@ $ python manage.py runserver
 
 ### Fonctionnalités minimales
 - Versioning de l'API
-- Fonction de recherche libre
 - Accès au tableau complet des données
-- Fonction de tri pour chaque colonne
-- Fonction de récupération des données au format indiqué par l'utilisateur (json, csv...)
-- Fonction permettant de générer des graphiques à partir de deux dimensions choisies par l'utilisateur
+- Fonction de récupération des données au format indiqué par l'utilisateur (json, api...)
 
 ### Technologies utilisées
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
 * [Sqlite3] - Base de données relationnelle
+
+#### Prochaines évolutions :
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
 ## Request & Response Examples
 
 ### API Resources
 
+  - [GET /api/v1](#api-root)
   - [GET /api/v1/objects](#get-objects)
   - [GET /api/v1/objects/{id}](#get-objectsid)
-  - [GET /api/v1/objects/{id}/{parameter}](#get-objectsidparameter)
   - [POST /api/v1/objects](#post-objects)
+
+
+### API root
+
+Example: https://cbecret.pythonanywhere.com/api/v1/
+
+Response body:
+```
+{
+    "mobjects": "https://cbecret.pythonanywhere.com/api/v1/mobjects/",
+    "users": "https://cbecret.pythonanywhere.com/api/v1/users/"
+}
+```
+
 
 ### GET /objects
 
@@ -84,41 +97,42 @@ Example: https://cbecret.pythonanywhere.com/api/v1/objects.json
 
 Response body:
 ```
+
 [
     {
-        "id": "1",
+        "id": 1,
         "messier_number": "M1",
-        "usual_name": "Crab Nebula",
+        "usual_name": "",
         "ngc": "NGC 1952",
         "constellation": "Taurus",
         "messier_type": "Supernova remnant",
         "dimension": "6'×4'",
         "distance_value": 6.3,
         "distance_unit": "kly",
-        "magnitude": "8.4",
+        "magnitude": 8.4,
         "ascension": "05h 34m 31.94s",
-        "discovery_date": "03/05/1731",
+        "discovery_date": "1731-05-01",
         "discoverer": "John Bevis",
         "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
         "owner": 1
     },
     {
-        "id": "2",
-        "messier_number": "M2",
-        "usual_name": None,
-        "ngc": "NGC 7089",
-        "constellation": "Aquarius",
-        "messier_type": "Globular cluster",
-        "dimension": "16′.0",
-        "distance_value": 33,
+        "id": 2,
+        "messier_number": "M1",
+        "usual_name": "",
+        "ngc": "NGC 1952",
+        "constellation": "Taurus",
+        "messier_type": "Supernova remnant",
+        "dimension": "6'×4'",
+        "distance_value": 6.3,
         "distance_unit": "kly",
-        "magnitude": "6.3",
-        "ascension": "21h 33m 27.02s",
-        "discovery_date": "03/05/1731",
+        "magnitude": 8.4,
+        "ascension": "05h 34m 31.94s",
+        "discovery_date": "1731-05-01",
         "discoverer": "John Bevis",
-        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Messier_2_Hubble_WikiSky.jpg",
+        "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
         "owner": 1
-    },
+    }
 ]
 ```
 
@@ -129,32 +143,21 @@ Example: https://cbecret.pythonanywhere.com/api/v1/objects/1.json
 Response body:
 ```
 {
-    "id": "1",
+    "id": 1,
     "messier_number": "M1",
-    "usual_name": "Crab Nebula",
+    "usual_name": "",
     "ngc": "NGC 1952",
     "constellation": "Taurus",
     "messier_type": "Supernova remnant",
     "dimension": "6'×4'",
     "distance_value": 6.3,
     "distance_unit": "kly",
-    "magnitude": "8.4",
+    "magnitude": 8.4,
     "ascension": "05h 34m 31.94s",
-    "discovery_date": "03/05/1731",
+    "discovery_date": "1731-05-01",
     "discoverer": "John Bevis",
     "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
     "owner": 1
-}
-```
-
-### GET /objects/{id}/{parameter}
-Example: https://cbecret.pythonanywhere.com/api/v1/objects/1/usual_name.json
-
-Response body:
-```
-{
-    "usual_name": "Crab Nebula"
-
 }
 ```
 
@@ -185,17 +188,11 @@ http http://127.0.0.1:8000/api/v1/objects.api   # Browsable API suffix
 * [HyperLeda](http://leda.univ-lyon1.fr/)
 * [CDS Portal](http://cdsportal.u-strasbg.fr/)
 
-### Installation
-
-> __TODO :__ Compléter les instructions d'installation et de déploiement
 
 ### Todos
 
- - Compléter le fichier about.md
- - Documenter les routes utilisées
- - Initialiser Django Rest Framework
- - Développer le serveur pour l'ensemble des routes définies
- - Mettre en place un FrontEnd ludique et interactif
+> __TODO :__ Développer un petit front sexy avec du THREE.js ¯_(ツ)_/¯
+
 
 License
 ----

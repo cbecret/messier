@@ -1,31 +1,23 @@
-from mobjects.models import Mobject
-from mobjects.serializers import MobjectSerializer
-from rest_framework import generics, permissions
 from django.contrib.auth.models import User
-from mobjects.serializers import UserSerializer
+from rest_framework import permissions, renderers, viewsets
+from rest_framework.response import Response
+
+from mobjects.models import Mobject
 from mobjects.permissions import IsOwnerOrReadOnly
+from mobjects.serializers import MobjectSerializer, UserSerializer
 
 
-class MobjectList(generics.ListCreateAPIView):
+# Serializer pour les objets de Messier
+class MobjectViewSet(viewsets.ModelViewSet):
     queryset = Mobject.objects.all()
     serializer_class = MobjectSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly,
+                          IsOwnerOrReadOnly]
 
     def perform_create(self, serializer):
         serializer.save(owner=self.request.user)
 
-
-class MobjectDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Mobject.objects.all()
-    serializer_class = MobjectSerializer
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
-
-
-class UserList(generics.ListAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
-
-
-class UserDetail(generics.RetrieveAPIView):
+# Serializer pour les utilisateurs
+class UserViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
