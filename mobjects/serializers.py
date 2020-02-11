@@ -11,7 +11,7 @@ class MobjectSerializer(serializers.ModelSerializer):
         model = Mobject
         fields = ['id', 'messier_number', 'usual_name', 'ngc', 'constellation',
                  'messier_type', 'dimension', 'distance_value', 'distance_unit',
-                 'magnitude', 'ascension', 'discovery_date', 'discoverer', 'image_link',
+                 'magnitude', 'ascension', 'discovery_year', 'discoverer', 'image_link',
                  'owner']
         owner = serializers.ReadOnlyField(source='owner.username')
 
