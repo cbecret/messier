@@ -6,6 +6,8 @@ Mise en place d'un catalogue de Messier dans le cadre du cours de Python du Mast
 
 Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde/astronomie-accueil-catalogue-Messier.html)
 
+___________________________________
+
 ## Instructions d'installation :
 
 * Cette API utilise les dépendances suivantes :
@@ -14,12 +16,14 @@ Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde
 | ------ | ------ |
 | Python | (3.5, 3.6, 3.7, 3.8) |
 | Django | (1.11, 2.0, 2.1, 2.2, 3.0) |
+| djangorestframework | (3.11) |
 
 * Procédure d'installation :
 
 ```sh
 $ git clone https://github.com/cbecret/messier.git
 $ cd messier
+$ pip install -r requirements.txt
 $ python manage.py migrate
 $ python manage.py runserver
 ```
@@ -31,6 +35,8 @@ $ python manage.py createsuperuser
 $ python manage.py loaddata mobjects
 ```
 
+___________________________________
+
 ## Contraintes d'accessibilité :
 
 - Performance
@@ -40,12 +46,16 @@ $ python manage.py loaddata mobjects
 - Entièrement en Python
 - Hébergé sur un service en ligne
 
-### Participants
+___________________________________
+
+## Participants
 * Cyril Bécret
 * Quentin Monmousseau
 * Mehdi Bey
 
-### Données
+___________________________________
+
+## Données
 - Messier number
 - Usual Name
 - NGC number
@@ -59,23 +69,33 @@ $ python manage.py loaddata mobjects
 - Discoverer
 - Image link
 
-### L'intérêt scientifique de ces données et de votre catalogue
+___________________________________
+
+## L'intérêt scientifique de ces données et de votre catalogue
 - Faciliter l'exploration des différentes galaxies listées par Messier
 
-### Fonctionnalités minimales
+___________________________________
+
+## Fonctionnalités minimales
 - Versioning de l'API
 - Accès au tableau complet des données
 - Fonction de récupération des données au format indiqué par l'utilisateur (json, api...)
 
-### Technologies utilisées
+___________________________________
+
+## Technologies utilisées
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
 * [Sqlite3] - Base de données relationnelle
 
+
 #### Prochaines évolutions :
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
+___________________________________
+
 ## Request & Response Examples
+
 
 ### API Resources
 
@@ -84,6 +104,7 @@ $ python manage.py loaddata mobjects
   - [GET /api/v1/objects/{id}](#get-objectsid)
   - [POST /api/v1/objects](#post-objects)
 
+___________________________________
 
 ### API root
 
@@ -97,10 +118,9 @@ Response body:
 }
 ```
 
-
 ### GET /objects
 
-Example: https://cbecret.pythonanywhere.com/api/v1/objects.json
+Example: https://cbecret.pythonanywhere.com/api/v1/mobjects.json
 
 Response body:
 ```
@@ -145,7 +165,7 @@ Response body:
 
 ### GET /objects/{id}
 
-Example: https://cbecret.pythonanywhere.com/api/v1/objects/1.json
+Example: https://cbecret.pythonanywhere.com/api/v1/mobjects/1.json
 
 Response body:
 ```
@@ -168,20 +188,23 @@ Response body:
 }
 ```
 
+___________________________________
+
 ## Format des données renvoyées par l'API
 
 * Il est possible de choisir le type de retour via le **Accept header** :
 
-http http://127.0.0.1:8000/api/v1/objects/ Accept:application/json  # Request JSON
-http http://127.0.0.1:8000/api/v1/objects/ Accept:text/html         # Request HTML
+> https://cbecret.pythonanywhere.com/api/v1/mobjects/ Accept:application/json  # Request JSON
+> https://cbecret.pythonanywhere.com/api/v1/mobjects/ Accept:text/html         # Request HTML
 
 * ou en utilisant un suffix spécifique :
 
-http http://127.0.0.1:8000/api/v1/objects.json  # JSON suffix
-http http://127.0.0.1:8000/api/v1/objects.api   # Browsable API suffix
+> https://cbecret.pythonanywhere.com/api/v1/mobjects.json  # JSON suffix
+> https://cbecret.pythonanywhere.com/api/v1/mobjects.api   # Browsable API suffix
 
+___________________________________
 
-### Status Codes
+## Status Codes
 
 | Status Code | Description |
 | :--- | :--- |
@@ -191,12 +214,15 @@ http http://127.0.0.1:8000/api/v1/objects.api   # Browsable API suffix
 | 404 | `NOT FOUND` |
 | 500 | `INTERNAL SERVER ERROR` |
 
+___________________________________
+
 ## Liens annexes de données
 * [HyperLeda](http://leda.univ-lyon1.fr/)
 * [CDS Portal](http://cdsportal.u-strasbg.fr/)
 
+___________________________________
 
-### Todos
+## Todos
 
 > __TODO :__ Développer un petit front sexy avec du THREE.js ¯_(ツ)_/¯
 
