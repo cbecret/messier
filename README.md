@@ -6,6 +6,8 @@ Mise en place d'un catalogue de Messier dans le cadre du cours de Python du Mast
 
 Source [astropolis.fr](https://www.astropolis.fr/catalogue-Messier/page-de-garde/astronomie-accueil-catalogue-Messier.html)
 
+___________________________________
+
 ## Instructions d'installation :
 
 * Cette API utilise les dépendances suivantes :
@@ -26,6 +28,8 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
+___________________________________
+
 ## Contraintes d'accessibilité :
 
 - Performance
@@ -35,12 +39,16 @@ $ python manage.py runserver
 - Entièrement en Python
 - Hébergé sur un service en ligne
 
-### Participants
+___________________________________
+
+## Participants
 * Cyril Bécret
 * Quentin Monmousseau
 * Mehdi Bey
 
-### Données
+___________________________________
+
+## Données
 - Messier number
 - Usual Name
 - NGC number
@@ -54,23 +62,33 @@ $ python manage.py runserver
 - Discoverer
 - Image link
 
-### L'intérêt scientifique de ces données et de votre catalogue
+___________________________________
+
+## L'intérêt scientifique de ces données et de votre catalogue
 - Faciliter l'exploration des différentes galaxies listées par Messier
 
-### Fonctionnalités minimales
+___________________________________
+
+## Fonctionnalités minimales
 - Versioning de l'API
 - Accès au tableau complet des données
 - Fonction de récupération des données au format indiqué par l'utilisateur (json, api...)
 
-### Technologies utilisées
+___________________________________
+
+## Technologies utilisées
 * [Python] - Langage utilisé pour la création de l'API
 * [Django] - Framework permettant la création de l'API
 * [Sqlite3] - Base de données relationnelle
 
+
 #### Prochaines évolutions :
 * [JavaScript] - Utilisé pour l'affichage du FrontEnd (Librairies à définir en fonction de la motivation (ThreeJS)
 
+___________________________________
+
 ## Request & Response Examples
+
 
 ### API Resources
 
@@ -79,6 +97,7 @@ $ python manage.py runserver
   - [GET /api/v1/objects/{id}](#get-objectsid)
   - [POST /api/v1/objects](#post-objects)
 
+___________________________________
 
 ### API root
 
@@ -91,7 +110,6 @@ Response body:
     "users": "https://cbecret.pythonanywhere.com/api/v1/users/"
 }
 ```
-
 
 ### GET /objects
 
@@ -163,20 +181,23 @@ Response body:
 }
 ```
 
+___________________________________
+
 ## Format des données renvoyées par l'API
 
 * Il est possible de choisir le type de retour via le **Accept header** :
 
-http https://cbecret.pythonanywhere.com/api/v1/mobjects/ Accept:application/json  # Request JSON
-http https://cbecret.pythonanywhere.com/api/v1/mobjects/ Accept:text/html         # Request HTML
+> https://cbecret.pythonanywhere.com/api/v1/mobjects/ Accept:application/json  # Request JSON
+> https://cbecret.pythonanywhere.com/api/v1/mobjects/ Accept:text/html         # Request HTML
 
 * ou en utilisant un suffix spécifique :
 
-http https://cbecret.pythonanywhere.com/api/v1/mobjects.json  # JSON suffix
-http https://cbecret.pythonanywhere.com/api/v1/mobjects.api   # Browsable API suffix
+> https://cbecret.pythonanywhere.com/api/v1/mobjects.json  # JSON suffix
+> https://cbecret.pythonanywhere.com/api/v1/mobjects.api   # Browsable API suffix
 
+___________________________________
 
-### Status Codes
+## Status Codes
 
 | Status Code | Description |
 | :--- | :--- |
@@ -186,12 +207,15 @@ http https://cbecret.pythonanywhere.com/api/v1/mobjects.api   # Browsable API su
 | 404 | `NOT FOUND` |
 | 500 | `INTERNAL SERVER ERROR` |
 
+___________________________________
+
 ## Liens annexes de données
 * [HyperLeda](http://leda.univ-lyon1.fr/)
 * [CDS Portal](http://cdsportal.u-strasbg.fr/)
 
+___________________________________
 
-### Todos
+## Todos
 
 > __TODO :__ Développer un petit front sexy avec du THREE.js ¯_(ツ)_/¯
 
