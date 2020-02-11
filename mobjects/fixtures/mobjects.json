@@ -1,0 +1,2202 @@
+[
+    {
+        "model": "mobjects.mobject",
+        "pk": 1,
+        "fields": {
+            "messier_number": "M1",
+            "usual_name": "Taureau",
+            "ngc": "NGC 1952",
+            "constellation": "Tau",
+            "messier_type": "Supernova remnant / Reste de Supernova",
+            "dimension": "6,0' x 4,0'",
+            "distance_value": 6500,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+22:00:52.1",
+            "discovery_year": "1731",
+            "discoverer": "Bévis",
+            "image_link": "http://www.lasam.ca/messier/M001.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 2,
+        "fields": {
+            "messier_number": "M2",
+            "usual_name": "Verseau",
+            "ngc": "NGC 7089",
+            "constellation": "Aqr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "11,7'",
+            "distance_value": 55000,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-00:49:23.9",
+            "discovery_year": "1746",
+            "discoverer": "Maraldi",
+            "image_link": "http://www.lasam.ca/messier/M002.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 3,
+        "fields": {
+            "messier_number": "M3",
+            "usual_name": "Les Chiens de chasse",
+            "ngc": "NGC 5272",
+            "constellation": "CVn",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "18,6'",
+            "distance_value": 48500,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+28:22:31.6",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M003.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 4,
+        "fields": {
+            "messier_number": "M4",
+            "usual_name": "Scorpion",
+            "ngc": "NGC 6121",
+            "constellation": "Sco",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "22,8'",
+            "distance_value": 9900,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-26:31:31.9",
+            "discovery_year": "1746",
+            "discoverer": "Chéseaux",
+            "image_link": "http://www.lasam.ca/messier/M004.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 5,
+        "fields": {
+            "messier_number": "M5",
+            "usual_name": null,
+            "ngc": "NGC 5904",
+            "constellation": "Se1",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "19,9'",
+            "distance_value": 24800,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "+02:04:57.7",
+            "discovery_year": "1702",
+            "discoverer": "Kirch",
+            "image_link": "http://www.lasam.ca/messier/M005.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 6,
+        "fields": {
+            "messier_number": "M6",
+            "usual_name": "Scorpion",
+            "ngc": "NGC 6504",
+            "constellation": "Sco",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "15,0'",
+            "distance_value": 1300,
+            "distance_unit": "kly",
+            "magnitude": 4,
+            "ascension": "-32:15:15.0",
+            "discovery_year": "1654",
+            "discoverer": "Hodierna",
+            "image_link": "http://www.lasam.ca/messier/M006.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 7,
+        "fields": {
+            "messier_number": "M7",
+            "usual_name": "Scorpion",
+            "ngc": "NGC 6475",
+            "constellation": "Sco",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "30,0'",
+            "distance_value": 780,
+            "distance_unit": "kly",
+            "magnitude": 3,
+            "ascension": "-34:47:34.2",
+            "discovery_year": null,
+            "discoverer": "Ptolémée",
+            "image_link": "http://www.lasam.ca/messier/M007.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 8,
+        "fields": {
+            "messier_number": "M8",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6523",
+            "constellation": "Sgr",
+            "messier_type": "Emission Nebula / Nébuleuse à émission",
+            "dimension": "90,0' x 40,0'",
+            "distance_value": 4850,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-24:22:48.6",
+            "discovery_year": "1680",
+            "discoverer": "Flamsteed",
+            "image_link": "http://www.lasam.ca/messier/M008.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 9,
+        "fields": {
+            "messier_number": "M9",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6333",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "5,5'",
+            "distance_value": 25800,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-18:30:58.5",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M009.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 10,
+        "fields": {
+            "messier_number": "M10",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6254",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "12,2'",
+            "distance_value": 16300,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-04:05:57.6",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M010.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 11,
+        "fields": {
+            "messier_number": "M11",
+            "usual_name": "L’Écu de Sobieski",
+            "ngc": "NGC 6705",
+            "constellation": "Sct",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "14,0'",
+            "distance_value": 5600,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-06:16:12.1",
+            "discovery_year": "1681",
+            "discoverer": "Kirch",
+            "image_link": "http://www.lasam.ca/messier/M011.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 12,
+        "fields": {
+            "messier_number": "M12",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6218",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "12,2'",
+            "distance_value": 18900,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-01:56:52.2",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M012.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 13,
+        "fields": {
+            "messier_number": "M13",
+            "usual_name": "Hercule",
+            "ngc": "NGC 6205",
+            "constellation": "Her",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "23,2'",
+            "distance_value": 23500,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "+36:27:40.7",
+            "discovery_year": "1714",
+            "discoverer": "Halley",
+            "image_link": "http://www.lasam.ca/messier/M013.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 14,
+        "fields": {
+            "messier_number": "M14",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6402",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "6,7'",
+            "distance_value": 24000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-03:14:45.3",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M014.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 15,
+        "fields": {
+            "messier_number": "M15",
+            "usual_name": "Pégase",
+            "ngc": "NGC 7078",
+            "constellation": "Peg",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "12,3'",
+            "distance_value": 49500,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+12:10:00.6",
+            "discovery_year": "1746",
+            "discoverer": "Maraldi",
+            "image_link": "http://www.lasam.ca/messier/M015.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 16,
+        "fields": {
+            "messier_number": "M16",
+            "usual_name": null,
+            "ngc": "NGC 6611",
+            "constellation": "Se2",
+            "messier_type": "Emission Nebula / Nébuleuse à émission",
+            "dimension": "25,0'",
+            "distance_value": 5870,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-13:48:26.0",
+            "discovery_year": "1746",
+            "discoverer": "Chéseaux",
+            "image_link": "http://www.lasam.ca/messier/M016.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 17,
+        "fields": {
+            "messier_number": "M17",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6618",
+            "constellation": "Sgr",
+            "messier_type": "Emission Nebula / Nébuleuse à émission",
+            "dimension": "45,0' x 35,0'",
+            "distance_value": 5870,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-16:10:17.5",
+            "discovery_year": "1746",
+            "discoverer": "Chéseaux",
+            "image_link": "http://www.lasam.ca/messier/M017.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 18,
+        "fields": {
+            "messier_number": "M18",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6613",
+            "constellation": "Sgr",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "9,0'",
+            "distance_value": 4900,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-17:06:07.1",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M018.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 19,
+        "fields": {
+            "messier_number": "M19",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6273",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "5,3'",
+            "distance_value": 22500,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-26:16:04.6",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M019.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 20,
+        "fields": {
+            "messier_number": "M20",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6514",
+            "constellation": "Sgr",
+            "messier_type": "Emission Nebula / Nébuleuse à émission",
+            "dimension": "29,0' x 27,0'",
+            "distance_value": 2300,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-22:58:18.8",
+            "discovery_year": "1749",
+            "discoverer": "Le Gentil",
+            "image_link": "http://www.lasam.ca/messier/M020.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 21,
+        "fields": {
+            "messier_number": "M21",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6531",
+            "constellation": "Sgr",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "13,0'",
+            "distance_value": 4200,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-22:29:24.2",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M021.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 22,
+        "fields": {
+            "messier_number": "M22",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6656",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "17,0'",
+            "distance_value": 7800,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-23:54:12.3",
+            "discovery_year": "1665",
+            "discoverer": "Ihle",
+            "image_link": "http://www.lasam.ca/messier/M022.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 23,
+        "fields": {
+            "messier_number": "M23",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6494",
+            "constellation": "Sgr",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "25,0'",
+            "distance_value": 2150,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-18:59:07.2",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M023.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 24,
+        "fields": {
+            "messier_number": "M24",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6603",
+            "constellation": "Sgr",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "45,0'",
+            "distance_value": 16000,
+            "distance_unit": "kly",
+            "magnitude": 11,
+            "ascension": "-18:30:52.4",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M024.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 25,
+        "fields": {
+            "messier_number": "M25",
+            "usual_name": "Sagittaire",
+            "ngc": "IC4725",
+            "constellation": "Sgr",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "35,0'",
+            "distance_value": 2060,
+            "distance_unit": "kly",
+            "magnitude": 4,
+            "ascension": "-19:06:53.8",
+            "discovery_year": "1746",
+            "discoverer": "Chéseaux",
+            "image_link": "http://www.lasam.ca/messier/M025.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 26,
+        "fields": {
+            "messier_number": "M26",
+            "usual_name": "L’Écu de Sobieski",
+            "ngc": "NGC 6694",
+            "constellation": "Sct",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "15,0'",
+            "distance_value": 5100,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-09:23:01.0",
+            "discovery_year": "1749",
+            "discoverer": "Le Gentil",
+            "image_link": "http://www.lasam.ca/messier/M026.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 27,
+        "fields": {
+            "messier_number": "M27",
+            "usual_name": "Petit Renard",
+            "ngc": "NGC 6853",
+            "constellation": "Vul",
+            "messier_type": "Planetary Nebula / Nébuleuse Planétaire",
+            "dimension": "348,0''",
+            "distance_value": 980,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+22:43:15.7",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M027.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 28,
+        "fields": {
+            "messier_number": "M28",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6626",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "15,0'",
+            "distance_value": 19000,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-24:52:11.4",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M028.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 29,
+        "fields": {
+            "messier_number": "M29",
+            "usual_name": "Cygne",
+            "ngc": "NGC 6913",
+            "constellation": "Cyg",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "7,0'",
+            "distance_value": 4100,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+38:30:27.6",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M029.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 30,
+        "fields": {
+            "messier_number": "M30",
+            "usual_name": "Capricorne",
+            "ngc": "NGC 7099",
+            "constellation": "Cap",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "8,9'",
+            "distance_value": 41000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-23:10:44.7",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M030.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 31,
+        "fields": {
+            "messier_number": "M31",
+            "usual_name": "Andromède",
+            "ngc": "NGC 224",
+            "constellation": "And",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "180,0' x 63,0'",
+            "distance_value": 2500000,
+            "distance_unit": "kly",
+            "magnitude": 3,
+            "ascension": "+41:16:08.6",
+            "discovery_year": null,
+            "discoverer": null,
+            "image_link": "http://www.lasam.ca/messier/M031.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 32,
+        "fields": {
+            "messier_number": "M32",
+            "usual_name": "Andromède",
+            "ngc": "NGC 221",
+            "constellation": "And",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,6' x 5,8'",
+            "distance_value": null,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+40:51:55.0",
+            "discovery_year": "1749",
+            "discoverer": "Le Gentil",
+            "image_link": "http://www.lasam.ca/messier/M032.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 33,
+        "fields": {
+            "messier_number": "M33",
+            "usual_name": "Triangle",
+            "ngc": "NGC 598",
+            "constellation": "Tri",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "62,0. x 39,0'",
+            "distance_value": 2723000,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "+30:39:36.8",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M033.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 34,
+        "fields": {
+            "messier_number": "M34",
+            "usual_name": "Persée",
+            "ngc": "NGC 1039",
+            "constellation": "Per",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "35,0'",
+            "distance_value": 1450,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "+42:44:46.1",
+            "discovery_year": "1764",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M034.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 35,
+        "fields": {
+            "messier_number": "M35",
+            "usual_name": "Les Gémeaux",
+            "ngc": "NGC 2168",
+            "constellation": "Gem",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "30,0'",
+            "distance_value": 2800,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "+24:20:19.1",
+            "discovery_year": "1746",
+            "discoverer": "Chéseaux",
+            "image_link": "http://www.lasam.ca/messier/M035.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 36,
+        "fields": {
+            "messier_number": "M36",
+            "usual_name": "Cocher",
+            "ngc": "NGC 1960",
+            "constellation": "Aur",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "12,0'",
+            "distance_value": 3700,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+34:08:26.7",
+            "discovery_year": "1654",
+            "discoverer": "Hodierna",
+            "image_link": "http://www.lasam.ca/messier/M036.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 37,
+        "fields": {
+            "messier_number": "M37",
+            "usual_name": "Cocher",
+            "ngc": "NGC 2099",
+            "constellation": "Aur",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "24,0'",
+            "distance_value": 3600,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "+32:33:10.8",
+            "discovery_year": "1654",
+            "discoverer": "Hodierna",
+            "image_link": "http://www.lasam.ca/messier/M037.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 38,
+        "fields": {
+            "messier_number": "M38",
+            "usual_name": "Cocher",
+            "ngc": "NGC 1912",
+            "constellation": "Aur",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "21,0'",
+            "distance_value": 2750,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+35:51:17.7",
+            "discovery_year": "1654",
+            "discoverer": "Hodierna",
+            "image_link": "http://www.lasam.ca/messier/M038.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 39,
+        "fields": {
+            "messier_number": "M39",
+            "usual_name": "Cygne",
+            "ngc": "NGC 7092",
+            "constellation": "Cyg",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "32,0'",
+            "distance_value": 880,
+            "distance_unit": "kly",
+            "magnitude": 4,
+            "ascension": "+48:26:17.4",
+            "discovery_year": "1750",
+            "discoverer": "Le Gentil",
+            "image_link": "http://www.lasam.ca/messier/M039.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 40,
+        "fields": {
+            "messier_number": "M40",
+            "usual_name": null,
+            "ngc": "Winnecke 4",
+            "constellation": null,
+            "messier_type": "Double star / Étoile Double",
+            "dimension": null,
+            "distance_value": null,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": null,
+            "discovery_year": "1660",
+            "discoverer": "Hevelius",
+            "image_link": "http://www.lasam.ca/messier/M040.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 41,
+        "fields": {
+            "messier_number": "M41",
+            "usual_name": "Grand Chien",
+            "ngc": "NGC 2287",
+            "constellation": "CMa",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "30,0'",
+            "distance_value": 1600,
+            "distance_unit": "kly",
+            "magnitude": 4,
+            "ascension": "-20:45:15.2",
+            "discovery_year": "1654",
+            "discoverer": "Hodierna",
+            "image_link": "http://www.lasam.ca/messier/M041.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 42,
+        "fields": {
+            "messier_number": "M42",
+            "usual_name": "Orion",
+            "ngc": "NGC 9176",
+            "constellation": "Ori",
+            "messier_type": "Emission Nebula / Nébuleuse à émission",
+            "dimension": "30,0'",
+            "distance_value": 1500,
+            "distance_unit": "kly",
+            "magnitude": 4,
+            "ascension": "-05:23:22.8",
+            "discovery_year": "1610",
+            "discoverer": "Peiresc",
+            "image_link": "http://www.lasam.ca/messier/M042.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 43,
+        "fields": {
+            "messier_number": "M43",
+            "usual_name": "Orion",
+            "ngc": "NGC 1982",
+            "constellation": "Ori",
+            "messier_type": "Reflection Nebula / Nébuleuse à réflexion",
+            "dimension": "20,0' x 15,0'",
+            "distance_value": 1500,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "-05:16:02.9",
+            "discovery_year": "1750",
+            "discoverer": "Mairan",
+            "image_link": "http://www.lasam.ca/messier/M043.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 44,
+        "fields": {
+            "messier_number": "M44",
+            "usual_name": "Cancer",
+            "ngc": "NGC 2632",
+            "constellation": "Cnc",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "70,0'",
+            "distance_value": 520,
+            "distance_unit": "kly",
+            "magnitude": 3,
+            "ascension": "+19:40:19.4",
+            "discovery_year": null,
+            "discoverer": null,
+            "image_link": "http://www.lasam.ca/messier/M044.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 45,
+        "fields": {
+            "messier_number": "M45",
+            "usual_name": null,
+            "ngc": null,
+            "constellation": null,
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "120,0'",
+            "distance_value": 410,
+            "distance_unit": "kly",
+            "magnitude": 1,
+            "ascension": null,
+            "discovery_year": null,
+            "discoverer": null,
+            "image_link": "http://www.lasam.ca/messier/M045.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 46,
+        "fields": {
+            "messier_number": "M46",
+            "usual_name": "Poupe",
+            "ngc": "NGC 2437",
+            "constellation": "Pup",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "24,0'",
+            "distance_value": 3200,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-14:48:36.0",
+            "discovery_year": "1771",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M046.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 47,
+        "fields": {
+            "messier_number": "M47",
+            "usual_name": "Poupe",
+            "ngc": "NGC 2422",
+            "constellation": "Pup",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "22,0'",
+            "distance_value": 1750,
+            "distance_unit": "kly",
+            "magnitude": 4,
+            "ascension": "-14:28:57.4",
+            "discovery_year": "1654",
+            "discoverer": "Hodierna",
+            "image_link": "http://www.lasam.ca/messier/M047.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 48,
+        "fields": {
+            "messier_number": "M48",
+            "usual_name": "Hydre",
+            "ngc": "NGC 2548",
+            "constellation": "Hya",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "42'",
+            "distance_value": 1500,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-05:45:01.6",
+            "discovery_year": "1771",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M048.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 49,
+        "fields": {
+            "messier_number": "M49",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4472",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "8,9' x 7,4'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+08:00:01.7",
+            "discovery_year": "1771",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M049.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 50,
+        "fields": {
+            "messier_number": "M50",
+            "usual_name": "Licorne",
+            "ngc": "NGC 2323",
+            "constellation": "Mon",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "16,0. x 5,5'",
+            "distance_value": 2950,
+            "distance_unit": "kly",
+            "magnitude": 5,
+            "ascension": "-08:21:50.5",
+            "discovery_year": "1710",
+            "discoverer": "Cassini",
+            "image_link": "http://www.lasam.ca/messier/M050.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 51,
+        "fields": {
+            "messier_number": "M51",
+            "usual_name": "Les Chiens de chasse",
+            "ngc": "NGC 5194",
+            "constellation": "CVn",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "11,0' x 7,8'",
+            "distance_value": 37000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+47:11:42.6",
+            "discovery_year": "1773",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M051.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 52,
+        "fields": {
+            "messier_number": "M52",
+            "usual_name": "Cassiopée",
+            "ngc": "NGC 7654",
+            "constellation": "Cas",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "13,0'",
+            "distance_value": 3000,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+61:35:35.4",
+            "discovery_year": "1774",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M052.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 53,
+        "fields": {
+            "messier_number": "M53",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 5024",
+            "constellation": "Com",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "14,4'",
+            "distance_value": 69000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "+18:10:08.8",
+            "discovery_year": "1775",
+            "discoverer": "Bode",
+            "image_link": "http://www.lasam.ca/messier/M053.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 54,
+        "fields": {
+            "messier_number": "M54",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6715",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "5,5'",
+            "distance_value": 49000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-30:28:42.6",
+            "discovery_year": "1778",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M054.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 55,
+        "fields": {
+            "messier_number": "M55",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6809",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "14,8'",
+            "distance_value": 20000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-30:57:43.5",
+            "discovery_year": "1751",
+            "discoverer": "Lacaille",
+            "image_link": "http://www.lasam.ca/messier/M055.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 56,
+        "fields": {
+            "messier_number": "M56",
+            "usual_name": "Lyre",
+            "ngc": "NGC 6779",
+            "constellation": "Lyr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "2,4'",
+            "distance_value": 45600,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+30:11:04.2",
+            "discovery_year": "1779",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M056.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 57,
+        "fields": {
+            "messier_number": "M57",
+            "usual_name": "Lyre",
+            "ngc": "NGC 6720",
+            "constellation": "Lyr",
+            "messier_type": "Planetary Nebula / Nébuleuse Planétaire",
+            "dimension": "71''",
+            "distance_value": 1410,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+33:01:42.9",
+            "discovery_year": "1779",
+            "discoverer": "Darquier",
+            "image_link": "http://www.lasam.ca/messier/M057.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 58,
+        "fields": {
+            "messier_number": "M58",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4579",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "5,4' x 4,4'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+11:49:05.5",
+            "discovery_year": "1779",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M058.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 59,
+        "fields": {
+            "messier_number": "M59",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4621",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "5,1' x 3,4'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+11:38:49.3",
+            "discovery_year": "1779",
+            "discoverer": "Koehler",
+            "image_link": "http://www.lasam.ca/messier/M059.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 60,
+        "fields": {
+            "messier_number": "M60",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4649",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,2' x 6,2'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+11:33:09.7",
+            "discovery_year": "1779",
+            "discoverer": "Koehler",
+            "image_link": "http://www.lasam.ca/messier/M060.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 61,
+        "fields": {
+            "messier_number": "M61",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4303",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "6,0' x 5,5'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+04:28:25.1",
+            "discovery_year": "1779",
+            "discoverer": "Oriani",
+            "image_link": "http://www.lasam.ca/messier/M061.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 62,
+        "fields": {
+            "messier_number": "M62",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6266",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "6,3'",
+            "distance_value": 22500,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-30:06:44.5",
+            "discovery_year": "1771",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M062.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 63,
+        "fields": {
+            "messier_number": "M63",
+            "usual_name": "Les Chiens de chasse",
+            "ngc": "NGC 5055",
+            "constellation": "CVn",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "12,0' x 7,6'",
+            "distance_value": 23800000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+42:01:45.4",
+            "discovery_year": "1779",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M063.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 64,
+        "fields": {
+            "messier_number": "M64",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4826",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "9,3' x 5,4'",
+            "distance_value": 11800000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+21:40:58.7",
+            "discovery_year": "1775",
+            "discoverer": "Bode",
+            "image_link": "http://www.lasam.ca/messier/M064.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 65,
+        "fields": {
+            "messier_number": "M65",
+            "usual_name": "Lion",
+            "ngc": "NGC 3623",
+            "constellation": "Leo",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "10,0' x 3,3'",
+            "distance_value": 29000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+13:05:32.5",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M065.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 66,
+        "fields": {
+            "messier_number": "M66",
+            "usual_name": "Lion",
+            "ngc": "NGC 3627",
+            "constellation": "Leo",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "8,7' x 4,4'",
+            "distance_value": 29000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+12:59:29.5",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M066.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 67,
+        "fields": {
+            "messier_number": "M67",
+            "usual_name": "Cancer",
+            "ngc": "NGC 2682",
+            "constellation": "Cnc",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "27,0'",
+            "distance_value": 2600,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+11:48:43.0",
+            "discovery_year": "1778",
+            "discoverer": "Koehler",
+            "image_link": "http://www.lasam.ca/messier/M067.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 68,
+        "fields": {
+            "messier_number": "M68",
+            "usual_name": "Hydre",
+            "ngc": "NGC 4590",
+            "constellation": "Hya",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "9,8'",
+            "distance_value": 36000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-26:44:34.9",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M068.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 69,
+        "fields": {
+            "messier_number": "M69",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6637",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "3,8'",
+            "distance_value": 23500,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-32:20:52.7",
+            "discovery_year": "1751",
+            "discoverer": "Lacaille",
+            "image_link": "http://www.lasam.ca/messier/M069.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 70,
+        "fields": {
+            "messier_number": "M70",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6681",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "4,1'",
+            "distance_value": 65000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-32:17:30.8",
+            "discovery_year": "1780",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M070.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 71,
+        "fields": {
+            "messier_number": "M71",
+            "usual_name": "Flèche",
+            "ngc": "NGC 6838",
+            "constellation": "Sge",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "6,1'",
+            "distance_value": 13000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+18:46:42.2",
+            "discovery_year": "1746",
+            "discoverer": "Chéseaux",
+            "image_link": "http://www.lasam.ca/messier/M071.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 72,
+        "fields": {
+            "messier_number": "M72",
+            "usual_name": "Verseau",
+            "ngc": "NGC 6981",
+            "constellation": "Aqr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "5,1'",
+            "distance_value": 62000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "-12:32:13.4",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M072.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 73,
+        "fields": {
+            "messier_number": "M73",
+            "usual_name": "Verseau",
+            "ngc": "NGC 6994",
+            "constellation": "Aqr",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "2,8'",
+            "distance_value": null,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "-12:38:07.8",
+            "discovery_year": "1780",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M073.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 74,
+        "fields": {
+            "messier_number": "M74",
+            "usual_name": "Les Poissons",
+            "ngc": "NGC 628",
+            "constellation": "Psc",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "10,0' x 9,6'",
+            "distance_value": 26000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+15:47:01.2",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M074.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 75,
+        "fields": {
+            "messier_number": "M75",
+            "usual_name": "Sagittaire",
+            "ngc": "NGC 6864",
+            "constellation": "Sgr",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "4,6'",
+            "distance_value": 78500,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-21:55:20.0",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M075.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 76,
+        "fields": {
+            "messier_number": "M76",
+            "usual_name": "Persée",
+            "ngc": "NGC 650",
+            "constellation": "Per",
+            "messier_type": "Planetary Nebula / Nébuleuse Planétaire",
+            "dimension": "65''",
+            "distance_value": 8200,
+            "distance_unit": "kly",
+            "magnitude": 10,
+            "ascension": "+51:34:31.7",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M076.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 77,
+        "fields": {
+            "messier_number": "M77",
+            "usual_name": "Baleine",
+            "ngc": "NGC 1068",
+            "constellation": "Cet",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "6,9' x 5,9'",
+            "distance_value": 52000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-00:00:47.8",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M077.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 78,
+        "fields": {
+            "messier_number": "M78",
+            "usual_name": "Orion",
+            "ngc": "NGC 2068",
+            "constellation": "Ori",
+            "messier_type": "Reflection Nebula / Nébuleuse à réflexion",
+            "dimension": "8,0' x 6,0'",
+            "distance_value": 1630,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+00:04:45.5",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M078.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 79,
+        "fields": {
+            "messier_number": "M79",
+            "usual_name": "Lièvre",
+            "ngc": "NGC 1904",
+            "constellation": "Lep",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "7,8'",
+            "distance_value": 43400,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-24:31:27.2",
+            "discovery_year": "1780",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M079.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 80,
+        "fields": {
+            "messier_number": "M80",
+            "usual_name": "Scorpion",
+            "ngc": "NGC 6093",
+            "constellation": "Sco",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "5,1'",
+            "distance_value": 36000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-22:58:30.4",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M080.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 81,
+        "fields": {
+            "messier_number": "M81",
+            "usual_name": "Grande Ourse",
+            "ngc": "NGC 3031",
+            "constellation": "UMa",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "26,0' x 14,0'",
+            "distance_value": 8500000,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+69:03:55.1",
+            "discovery_year": "1774",
+            "discoverer": "Bode",
+            "image_link": "http://www.lasam.ca/messier/M081.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 82,
+        "fields": {
+            "messier_number": "M82",
+            "usual_name": "Grande Ourse",
+            "ngc": "NGC 3034",
+            "constellation": "UMa",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "11,0' x 4,6'",
+            "distance_value": 8500000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+69:40:45.8",
+            "discovery_year": "1774",
+            "discoverer": "Bode",
+            "image_link": "http://www.lasam.ca/messier/M082.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 83,
+        "fields": {
+            "messier_number": "M83",
+            "usual_name": "Hydre",
+            "ngc": "NGC 5236",
+            "constellation": "Hya",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "11,0' x 10,0'",
+            "distance_value": 8500000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "-29:51:55.5",
+            "discovery_year": "1751",
+            "discoverer": "Lacaille",
+            "image_link": "http://www.lasam.ca/messier/M083.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 84,
+        "fields": {
+            "messier_number": "M84",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4374",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "5,0' x 4,4'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+12:53:13.1",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M084.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 85,
+        "fields": {
+            "messier_number": "M85",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4382",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,1' x 5,2'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+18:11:29.4",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M085.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 86,
+        "fields": {
+            "messier_number": "M86",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4406",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,4' x 5,5'",
+            "distance_value": 20000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+12:56:46.4",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M086.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 87,
+        "fields": {
+            "messier_number": "M87",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4486",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,2' x 6,8'",
+            "distance_value": 63000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+12:23:28.0",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M087.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 88,
+        "fields": {
+            "messier_number": "M88",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4501",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "6,9' x 3,9'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+14:25:13.4",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M088.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 89,
+        "fields": {
+            "messier_number": "M89",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4552",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "4,2' x 4,2'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+12:33:22.8",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M089.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 90,
+        "fields": {
+            "messier_number": "M90",
+            "usual_name": "Vierge",
+            "ngc": "NGC 4560",
+            "constellation": "Vir",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "9,5' x 4,7'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+13:09:46.6",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M090.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 91,
+        "fields": {
+            "messier_number": "M91",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4548",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "5,4' x 4,4'",
+            "distance_value": 37000000,
+            "distance_unit": "kly",
+            "magnitude": 10,
+            "ascension": "+14:29:46.8",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M091.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 92,
+        "fields": {
+            "messier_number": "M92",
+            "usual_name": "Hercule",
+            "ngc": "NGC 6341",
+            "constellation": "Her",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "12,2'",
+            "distance_value": 28400,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "+43:08:11.5",
+            "discovery_year": "1777",
+            "discoverer": "Bode",
+            "image_link": "http://www.lasam.ca/messier/M092.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 93,
+        "fields": {
+            "messier_number": "M93",
+            "usual_name": "Poupe",
+            "ngc": "NGC 2447",
+            "constellation": "Pup",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "22,0'",
+            "distance_value": 3600,
+            "distance_unit": "kly",
+            "magnitude": 6,
+            "ascension": "-23:51:11.1",
+            "discovery_year": "1781",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M093.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 94,
+        "fields": {
+            "messier_number": "M94",
+            "usual_name": "Les Chiens de chasse",
+            "ngc": "NGC 4736",
+            "constellation": "CVn",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "11,0' x 9,1'",
+            "distance_value": 32600000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+41:07:13.6",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M094.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 95,
+        "fields": {
+            "messier_number": "M95",
+            "usual_name": "Lion",
+            "ngc": "NGC 3351",
+            "constellation": "Leo",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,4' x 5,1'",
+            "distance_value": 20300000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+11:42:13.7",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M095.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 96,
+        "fields": {
+            "messier_number": "M96",
+            "usual_name": "Lion",
+            "ngc": "NGC 3368",
+            "constellation": "Leo",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,1' x 5,1'",
+            "distance_value": 29300000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+11:49:11.8",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M096.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 97,
+        "fields": {
+            "messier_number": "M97",
+            "usual_name": "Grande Ourse",
+            "ngc": "NGC 3587",
+            "constellation": "UMa",
+            "messier_type": "Planetary Nebula / Nébuleuse Planétaire",
+            "dimension": "194''",
+            "distance_value": 10000,
+            "distance_unit": "kly",
+            "magnitude": 11,
+            "ascension": "+55:01:08.5",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M097.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 98,
+        "fields": {
+            "messier_number": "M98",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4192",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "9,5' x 3,2'",
+            "distance_value": 36000000,
+            "distance_unit": "kly",
+            "magnitude": 10,
+            "ascension": "+14:54:01.2",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M098.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 99,
+        "fields": {
+            "messier_number": "M99",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4254",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "5,4' x 4,8'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+14:24:59.4",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M099.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 100,
+        "fields": {
+            "messier_number": "M100",
+            "usual_name": "Chevelure de Bérénice",
+            "ngc": "NGC 4321",
+            "constellation": "Com",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "6,9' x 6,2'",
+            "distance_value": 41000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+15:49:18.5",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M100.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 101,
+        "fields": {
+            "messier_number": "M101",
+            "usual_name": "Grande Ourse",
+            "ngc": "NGC 5457",
+            "constellation": "UMa",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "27,0' x 26,0'",
+            "distance_value": 23000000,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "+54:20:56.2",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M101.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 102,
+        "fields": {
+            "messier_number": "M102",
+            "usual_name": null,
+            "ngc": "NGC 5866",
+            "constellation": null,
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "5,2' x 2,3'",
+            "distance_value": 23000000,
+            "distance_unit": "kly",
+            "magnitude": 10,
+            "ascension": null,
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M102.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 103,
+        "fields": {
+            "messier_number": "M103",
+            "usual_name": "Cassiopée",
+            "ngc": "NGC 581",
+            "constellation": "Cas",
+            "messier_type": "Open Cluster / Amas Ouvert",
+            "dimension": "5,0'",
+            "distance_value": 8500,
+            "distance_unit": "kly",
+            "magnitude": 7,
+            "ascension": "+60:39:28.8",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M103.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 104,
+        "fields": {
+            "messier_number": "M104",
+            "usual_name": "Corbeau",
+            "ngc": "NGC 4594",
+            "constellation": "Crv",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "8,9' x 4,1'",
+            "distance_value": 40000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-11:37:23.0",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M104.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 105,
+        "fields": {
+            "messier_number": "M105",
+            "usual_name": "Lion",
+            "ngc": "NGC 3379",
+            "constellation": "Leo",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "4,5' x 4,0'",
+            "distance_value": 21500000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+12:34:53.8",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M105.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 106,
+        "fields": {
+            "messier_number": "M106",
+            "usual_name": "Les Chiens de chasse",
+            "ngc": "NGC 4258",
+            "constellation": "CVn",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "18,0' x 7,9'",
+            "distance_value": 20000000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+47:18:14.3",
+            "discovery_year": "1781",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M106.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 107,
+        "fields": {
+            "messier_number": "M107",
+            "usual_name": "Ophiuchus",
+            "ngc": "NGC 6171",
+            "constellation": "Oph",
+            "messier_type": "Globular Cluster / Amas Globulaire",
+            "dimension": "7,8'",
+            "distance_value": 19200,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "-13:03:13.1",
+            "discovery_year": "1782",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M107.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 108,
+        "fields": {
+            "messier_number": "M108",
+            "usual_name": "Grande Ourse",
+            "ngc": "NGC 3556",
+            "constellation": "UMa",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "8,3' x 2,5'",
+            "distance_value": 23500000,
+            "distance_unit": "kly",
+            "magnitude": 10,
+            "ascension": "+55:40:26.8",
+            "discovery_year": "1782",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M108.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 109,
+        "fields": {
+            "messier_number": "M109",
+            "usual_name": "Grande Ourse",
+            "ngc": "NGC 3992",
+            "constellation": "UMa",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "7,6' x 4,9'",
+            "distance_value": 27000000,
+            "distance_unit": "kly",
+            "magnitude": 9,
+            "ascension": "+53:22:28.3",
+            "discovery_year": "1782",
+            "discoverer": "Méchain",
+            "image_link": "http://www.lasam.ca/messier/M109.JPG",
+            "owner": 1
+        }
+    },
+    {
+        "model": "mobjects.mobject",
+        "pk": 110,
+        "fields": {
+            "messier_number": "M110",
+            "usual_name": "Andromède",
+            "ngc": "NGC 205",
+            "constellation": "And",
+            "messier_type": "Galaxy / Galaxie",
+            "dimension": "17,0, x 9,8'",
+            "distance_value": 2250000,
+            "distance_unit": "kly",
+            "magnitude": 8,
+            "ascension": "+41:41:07.1",
+            "discovery_year": "1773",
+            "discoverer": "Messier",
+            "image_link": "http://www.lasam.ca/messier/M110.JPG",
+            "owner": 1
+        }
+    }
+]

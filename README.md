@@ -28,6 +28,13 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
+* Chargement des données initiales et création de l'admin :
+
+```sh
+$ python manage.py createsuperuser
+$ python manage.py loaddata mobjects
+```
+
 ___________________________________
 
 ## Contraintes d'accessibilité :
@@ -131,7 +138,7 @@ Response body:
         "distance_unit": "kly",
         "magnitude": 8.4,
         "ascension": "05h 34m 31.94s",
-        "discovery_date": "1731-05-01",
+        "discovery_year": "1731",
         "discoverer": "John Bevis",
         "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
         "owner": 1
@@ -148,7 +155,7 @@ Response body:
         "distance_unit": "kly",
         "magnitude": 8.4,
         "ascension": "05h 34m 31.94s",
-        "discovery_date": "1731-05-01",
+        "discovery_year": "1731",
         "discoverer": "John Bevis",
         "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
         "owner": 1
@@ -174,7 +181,7 @@ Response body:
     "distance_unit": "kly",
     "magnitude": 8.4,
     "ascension": "05h 34m 31.94s",
-    "discovery_date": "1731-05-01",
+    "discovery_year": "1731",
     "discoverer": "John Bevis",
     "image_link": "https://en.wikipedia.org/wiki/Messier_object#/media/File:Crab_Nebula.jpg",
     "owner": 1
