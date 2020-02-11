@@ -95,7 +95,7 @@ Response body:
 
 ### GET /objects
 
-Example: https://cbecret.pythonanywhere.com/api/v1/objects.json
+Example: https://cbecret.pythonanywhere.com/api/v1/mobjects.json
 
 Response body:
 ```
@@ -140,7 +140,7 @@ Response body:
 
 ### GET /objects/{id}
 
-Example: https://cbecret.pythonanywhere.com/api/v1/objects/1.json
+Example: https://cbecret.pythonanywhere.com/api/v1/mobjects/1.json
 
 Response body:
 ```
@@ -167,13 +167,13 @@ Response body:
 
 * Il est possible de choisir le type de retour via le **Accept header** :
 
-http http://127.0.0.1:8000/api/v1/objects/ Accept:application/json  # Request JSON
-http http://127.0.0.1:8000/api/v1/objects/ Accept:text/html         # Request HTML
+http http://127.0.0.1:8000/api/v1/mobjects/ Accept:application/json  # Request JSON
+http http://127.0.0.1:8000/api/v1/mobjects/ Accept:text/html         # Request HTML
 
 * ou en utilisant un suffix spécifique :
 
-http http://127.0.0.1:8000/api/v1/objects.json  # JSON suffix
-http http://127.0.0.1:8000/api/v1/objects.api   # Browsable API suffix
+http http://127.0.0.1:8000/api/v1/mobjects.json  # JSON suffix
+http http://127.0.0.1:8000/api/v1/mobjects.api   # Browsable API suffix
 
 
 ### Status Codes
